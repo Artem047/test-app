@@ -8,3 +8,11 @@
   margin: 0;
   font-family: "Heebo", sans-serif;
 }
+body{
+  max-width: 1152px;
+  width: 100%;
+  margin: auto;
+}
+a.active{
+  color: #FF6464;
+}
