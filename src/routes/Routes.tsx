@@ -7,6 +7,8 @@ import Register from "../auth/register/Register";
 import Work from "../pages/Work";
 import Blog from "../pages/Blog";
 import Contact from "../pages/Contact";
+import WorkDetail from "../pages/WorkDetail";
+import { dataWork } from "../data/data";
 
 export const route = createBrowserRouter([
     {
@@ -19,7 +21,11 @@ export const route = createBrowserRouter([
             },
             {
                 path: '/work',
-                element: <Work />
+                element: <Work />,
+            },
+            {
+                path: '/work/:title',
+                element: <WorkDetail data={dataWork} />
             },
             {
                 path: '/blog',

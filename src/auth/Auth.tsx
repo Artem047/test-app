@@ -1,11 +1,12 @@
-import { Outlet } from "react-router-dom"
+import { Outlet } from "react-router-dom";
 
 const Auth = () => {
   return (
-    <div>
-        <Outlet />
+    <div className="flex w-full h-screen">
+      <img src="/auth.svg" alt="" className="w-full max-w-[800px]" />
+      <Outlet />
     </div>
-  )
-}
+  );
+};
 
-export default Auth
+export default Auth;

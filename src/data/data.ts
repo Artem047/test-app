@@ -34,6 +34,13 @@ export const dataWork = [
         text: 'Typography',
         desc: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.'
     },
+    {
+        image: '/com.svg',
+        title: 'Components',
+        year: '2018',
+        text: 'Components, Design',
+        desc: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.'
+    },
 ]
 export const dataIcon = [
     {
@@ -48,4 +55,30 @@ export const dataIcon = [
     {
         image: '/li.svg'
     }
+]
+export const dataPageBlog = [
+    {
+        title: 'UI Interactions of the week', 
+        date: '12 Feb 2019',
+        city: 'Express, Handlebars', 
+        desc: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.'
+    },
+    {
+        title: 'UI Interactions of the week', 
+        date: '12 Feb 2019',
+        city: 'Express, Handlebars', 
+        desc: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.'
+    },
+    {
+        title: 'UI Interactions of the week', 
+        date: '12 Feb 2019',
+        city: 'Express, Handlebars', 
+        desc: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.'
+    },
+    {
+        title: 'UI Interactions of the week', 
+        date: '12 Feb 2019',
+        city: 'Express, Handlebars', 
+        desc: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.'
+    },
 ]
